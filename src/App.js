@@ -1,15 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
-import MyComponent from './MyComponent.js';
 import Text from './Text.js';
+import Button from "./Button.js";
+import Users from "./Users.js";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
 
-        <MyComponent/>
         <Text/>
+
+        <Users />
         
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -21,8 +23,15 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Please click me. Im not a virus, trust!
         </a>
+
+        <div className="Buttons">
+          <Button />
+          <Button />
+          <Button />
+        </div>
+
       </header>
     </div>
   );

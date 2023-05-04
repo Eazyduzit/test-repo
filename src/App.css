@@ -1,3 +1,8 @@
+:root{
+  --myColor: lightblue;
+}
+
+
 .App {
   text-align: center;
 }
@@ -38,10 +43,40 @@
 }
 
 .An{
-  color: #61dafb;
-}
-.Mar{
   font-weight: bold;
   color: yellow;
   border: 1px solid black;
+  background-color: var(--myColor);
+}
+
+.Buttons{
+  margin-top: 60px;
+  height: 150px;
+  width: 200px;
+  background-color: green;
+  border: 2px dotted whitesmoke;
+}
+Button{
+  background-color: #ebe9e5;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Buttons {
+    animation: Buttons-spin infinite 10s linear;
+  }
+}
+
+@keyframes Buttons-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.userText{
+    font-size: 40px;
+    font-style: italic;
+    color: var(--myColor);
 }

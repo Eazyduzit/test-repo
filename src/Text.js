@@ -2,8 +2,8 @@ import "./App.css"
 
 function Text () {
     return (
-      <div className="Mar">
-        <p>and Marius!</p>
+      <div className="An">
+        <p>Hello An!</p>
       </div>
     );
   }
