@@ -1,13 +1,19 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponent from './MyComponent.js';
+import Text from './Text.js';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+
+        <MyComponent/>
+        <Text/>
+        
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hei og velkommen til An sin første React App.
         </p>
         <a
           className="App-link"
