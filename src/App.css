@@ -2,7 +2,6 @@
   --myColor: lightblue;
 }
 
-
 .App {
   text-align: center;
 }
@@ -51,6 +50,7 @@
 
 .Buttons{
   margin-top: 60px;
+  padding: 10px;
   height: 150px;
   width: 200px;
   background-color: green;
@@ -58,6 +58,8 @@
 }
 Button{
   background-color: #ebe9e5;
+  height: 50px;
+  width: 180px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -79,4 +81,8 @@ Button{
     font-size: 40px;
     font-style: italic;
     color: var(--myColor);
+}
+
+.listStyle{
+    background-color: green;
 }
